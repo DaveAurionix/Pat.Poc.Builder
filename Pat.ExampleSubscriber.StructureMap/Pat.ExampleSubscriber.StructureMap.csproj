@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Pat.Subscriber.StatsDMonitoring\Pat.Subscriber.StatsDMonitoring.csproj" />
+    <ProjectReference Include="..\Pat.Subscriber.StructureMap4DependencyResolution\Pat.Subscriber.StructureMap4DependencyResolution.csproj" />
+  </ItemGroup>
+
+</Project>
